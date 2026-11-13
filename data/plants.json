@@ -1,0 +1,12 @@
+{
+  "tomato": {
+    "name": "Tomato",
+    "spreadM": 0.6,
+    "appearance": {
+      "foliage": "#3f7a38",
+      "outline": "#1f4a22",
+      "fruit": "#d6453d"
+    },
+    "notes": "Stake or cage. The circle is the mature canopy, 60 cm across, with fruit drawn in the middle."
+  }
+}

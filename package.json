@@ -1,0 +1,9 @@
+{
+  "name": "garden-planning",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "node src/build.js"
+  }
+}

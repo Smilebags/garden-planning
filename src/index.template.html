@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Garden beds</title>
+  <meta name="description" content="A scale diagram of the garden beds and the plants in them.">
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body>
+  <header class="top">
+    <div class="titles">
+      <p class="eyebrow">Garden plan</p>
+      <h1>Garden beds</h1>
+      <p id="summary" class="summary"></p>
+    </div>
+    <form class="date-field">
+      <label for="date">In the ground on</label>
+      <input id="date" name="date" type="date" required>
+    </form>
+  </header>
+  <main>
+    <section class="plan" aria-labelledby="plan-heading">
+      <h2 id="plan-heading" class="visually-hidden">Diagram</h2>
+      <div id="diagram"></div>
+      <p id="caption" class="caption"></p>
+    </section>
+    <aside class="side">
+      <section class="panel">
+        <h2>In the ground</h2>
+        <ul id="plant-list" class="plant-list"></ul>
+      </section>
+      <section class="panel">
+        <h2>Notes</h2>
+        <div id="details"></div>
+      </section>
+    </aside>
+  </main>
+  <noscript>
+    <p class="noscript">This plan needs JavaScript to show which plants are in the ground.</p>
+  </noscript>
+  <script type="application/json" id="garden-data">__GARDEN_DATA__</script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

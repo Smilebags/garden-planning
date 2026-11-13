@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tomato-1",
+    "plant": "tomato",
+    "bedIndex": 2,
+    "xM": 0.5,
+    "yM": 0.4375,
+    "planted": "2026-11-01",
+    "removed": null
+  },
+  {
+    "id": "tomato-2",
+    "plant": "tomato",
+    "bedIndex": 2,
+    "xM": 0.5,
+    "yM": 1.3125,
+    "planted": "2026-11-01",
+    "removed": null
+  },
+  {
+    "id": "tomato-3",
+    "plant": "tomato",
+    "bedIndex": 2,
+    "xM": 0.5,
+    "yM": 2.1875,
+    "planted": "2026-11-01",
+    "removed": null
+  },
+  {
+    "id": "tomato-4",
+    "plant": "tomato",
+    "bedIndex": 2,
+    "xM": 0.5,
+    "yM": 3.0625,
+    "planted": "2026-11-01",
+    "removed": null
+  }
+]
